@@ -1,0 +1,26 @@
+# Local environment files
+.env
+
+# Dependencies
+node_modules/
+
+# Python virtual environments
+.venv313/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Chroma vector database (local, generated during runs)
+chroma/
+
+# IDE and OS files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~
+
+# Event planning generated files
+crewAIAgents/venue_details.json
+crewAIAgents/output/
